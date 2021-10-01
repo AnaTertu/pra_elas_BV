@@ -9,7 +9,7 @@ class User extends MachineOption {  // class User herda propriedades da class Ma
         super({ opt }); //criação da lógica do jogo
         this._name = name; //metodo interno que recebe o parametro que está dentro do constructor
         this._selected = selected;
-        this._sort = this.sort() //chama ele mesmo - o metodo sort criado na class MachineOption, o metodo pai dentro da estrutura
+        this._sort = this.sort() //chama ele mesmo - o metodo sort criado na class MachineOption, o metodo pai dentro da estrutura, está salvando o retorno do pai
     }
     set name (string){ 
         this._name = string; // o resultado do jogo é tradado através do nome escolhido que é uma string

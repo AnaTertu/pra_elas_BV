@@ -3,6 +3,6 @@
  //const by = `Oi eu sou a ${name}`
  //console.log(by)
 
- const by = `Desenvolvio po AnaTertu /o\  \o/  :b`
+ const by = `Desenvolvio po AnaTertu /o/  :b`
 
  module.exports = by
