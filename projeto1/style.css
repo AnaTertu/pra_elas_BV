@@ -1,0 +1,26 @@
+/* tags */
+body {
+  color: lightslategrey;
+  text-align: center;
+  background-color: white;
+}
+ul {
+  border: 1px solid white;
+}
+
+/* .class  #id */
+.but #login {
+  background-color: gray;
+  color: antiquewhite;
+}
+
+/* #id */
+#register {
+  background-color: gainsboro;
+  color: rgb(44, 39, 39);
+}
+
+/* .class */
+.copy {
+  font-size: 8px;
+}
