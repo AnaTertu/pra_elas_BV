@@ -74,7 +74,7 @@ console.log('calculo de idade', personResult)
 let personResult1 = ageValue.reduce((val, current) => val.age + current.age)
 console.log('calculo de idade', personResult1)
 
-let allAge = persons.reduce((anterior, atual) => [..anterior.age, ..atual.age] )
+//let allAge = persons.reduce((anterior, atual) => [..anterior.age, ..atual.age] )
 
 //initialValues.reduce( calcReduce, initialValues.length)
 
