@@ -1,8 +1,10 @@
 /* tags */
 body {
+  margin: 0 auto; /*top right botton left*/ /* (top, botton)(right, left) */
   color: lightslategrey;
   text-align: center;
   background-color: white;
+  max-width: 1100px;
 }
 ul {
   border: 1px solid white;
@@ -21,6 +23,32 @@ ul {
 }
 
 /* .class */
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+p {
+  text-align: justify;
+  padding: 0 10px;
+}
+
 .copy {
   font-size: 8px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+li {
+  padding: 10px;
 }
