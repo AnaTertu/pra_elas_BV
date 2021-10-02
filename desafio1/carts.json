@@ -1,0 +1,200 @@
+{
+    "items": [
+      {
+        "id": 39487310561366,
+        "properties": null,
+        "quantity": 1,
+        "variant_id": 39487310561366,
+        "key": "39487310561366:b1514b1faa08239282fb4eb6f9819068",
+        "title": "OXFORD INFANTIL SCARABEUS MUNDI - AZUL CLARO / 31 / MUNDI",
+        "price": 11940,
+        "original_price": 11940,
+        "discounted_price": 11940,
+        "line_price": 11940,
+        "original_line_price": 11940,
+        "total_discount": 0,
+        "discounts": [
+          
+        ],
+        "sku": "524_12_69_31",
+        "grams": 0,
+        "vendor": "INSECTA",
+        "taxable": true,
+        "product_id": 4268109234262,
+        "product_has_only_default_variant": false,
+        "gift_card": false,
+        "final_price": 11940,
+        "final_line_price": 11940,
+        "url": "/products/mundi-oxford-infantil?variant=39487310561366",
+        "featured_image": {
+          "aspect_ratio": 1.0,
+          "alt": "MUNDI OXFORD INFANTIL - Insecta Shoes",
+          "height": 1414,
+          "url": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/scarabeus_mundi_1.jpg?v=1572268111",
+          "width": 1414
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/scarabeus_mundi_1.jpg?v=1572268111",
+        "handle": "mundi-oxford-infantil",
+        "requires_shipping": true,
+        "product_type": "CALÇADOS",
+        "product_title": "OXFORD INFANTIL SCARABEUS MUNDI",
+        "product_description": "Nosso clássico Oxford na sua versão infantil, todo acolchoado e com conforto extra pros pequenos, vegano e ecológico, pra ensinar a Calçar uma Causa desde pequenininho!\n\nestampas exclusivas desenvolvidas pelo nosso time criativo\ncabedal de tecido de garrafa PET reciclada\nsolado de borracha reciclada\npalmilha super macia e fofinha, feita com retalhos de tecido da nossa própria produção\ncadarço de elástico, pra não precisar de amarração jamais!\ncom ciclo fechado, ou seja, quando não estiver mais usando o sapato, devolve pra gente reciclar da forma correta!\nmochilinha de tecido para colorir\ncaixa com paper toy em formato de besouro pra montar, e tampa para colorir\nPeso: 0,300kg\n\n",
+        "variant_title": "AZUL CLARO / 31 / MUNDI",
+        "variant_options": [
+          "AZUL CLARO",
+          "31",
+          "MUNDI"
+        ],
+        "options_with_values": [
+          {
+            "name": "Cor",
+            "value": "AZUL CLARO"
+          },
+          {
+            "name": "Tamanho",
+            "value": "31"
+          },
+          {
+            "name": "Estampa",
+            "value": "MUNDI"
+          }
+        ],
+        "line_level_discount_allocations": [
+          
+        ],
+        "line_level_total_discount": 0
+      },
+      {
+        "id": 39486637113430,
+        "properties": {
+          
+        },
+        "quantity": 3,
+        "variant_id": 39486637113430,
+        "key": "39486637113430:e157ece5a9d3591cb4082241622395bb",
+        "title": "BOTA CHELSEA VEDÁLIA BORGONHA CHUNKY - VERMELHO-BORGONHA / 39 / GOIABA",
+        "price": 33900,
+        "original_price": 33900,
+        "discounted_price": 33900,
+        "line_price": 101700,
+        "original_line_price": 101700,
+        "total_discount": 0,
+        "discounts": [
+          
+        ],
+        "sku": "97_27_10_39",
+        "grams": 0,
+        "vendor": "INSECTA",
+        "taxable": true,
+        "product_id": 6583347380310,
+        "product_has_only_default_variant": false,
+        "gift_card": false,
+        "final_price": 33900,
+        "final_line_price": 101700,
+        "url": "/products/borgonha-chelsea-chunky?variant=39486637113430",
+        "featured_image": {
+          "aspect_ratio": 1.0,
+          "alt": "BOTA CHELSEA VEDÁLIA BORGONHA CHUNKY",
+          "height": 2400,
+          "url": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/StillAtmosfera-17032.jpg?v=1623358612",
+          "width": 2400
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/StillAtmosfera-17032.jpg?v=1623358612",
+        "handle": "borgonha-chelsea-chunky",
+        "requires_shipping": true,
+        "product_type": "CALÇADOS",
+        "product_title": "BOTA CHELSEA VEDÁLIA BORGONHA CHUNKY",
+        "product_description": "Joaninha que dá sorte em dobro pra quem usa nos pés. Modelo estilo Chelsea com estampas e cores exclusivas, agora repaginado: forma com bico mais largo e alongado, novo solado mais chunky, cabedal sem costuras e novo elástico lateral.\n\nNossas formas e numerações seguem o padrão do mercado, ou seja, se você calça sempre 35, nosso 35 vai lhe servir com certeza.\n\n\n\nFrete grátis nas compras acima de R$ 349 para todo o Brasil. 1ª troca grátis. Parcelamento em até 06x sem juros.\n\n\nPeso: 0,750kg\n\n",
+        "variant_title": "VERMELHO-BORGONHA / 39 / GOIABA",
+        "variant_options": [
+          "VERMELHO-BORGONHA",
+          "39",
+          "GOIABA"
+        ],
+        "options_with_values": [
+          {
+            "name": "Cor",
+            "value": "VERMELHO-BORGONHA"
+          },
+          {
+            "name": "Tamanho",
+            "value": "39"
+          },
+          {
+            "name": "Estampa",
+            "value": "GOIABA"
+          }
+        ],
+        "line_level_discount_allocations": [
+          
+        ],
+        "line_level_total_discount": 0
+      },
+      {
+        "id": 39519618859094,
+        "properties": {
+          
+        },
+        "quantity": 6,
+        "variant_id": 39519618859094,
+        "key": "39519618859094:6d14c8a1739255a2c33b28dc0eb77323",
+        "title": "SHORTS GAZE AMARELO INSECTA + PROJETO FIO - AMARELO CLARO / M / GAZE AMARELO",
+        "price": 25900,
+        "original_price": 25900,
+        "discounted_price": 25900,
+        "line_price": 155400,
+        "original_line_price": 155400,
+        "total_discount": 0,
+        "discounts": [
+          
+        ],
+        "sku": "1239_16_308_M",
+        "grams": 0,
+        "vendor": "INSECTA",
+        "taxable": true,
+        "product_id": 6622215110742,
+        "product_has_only_default_variant": false,
+        "gift_card": false,
+        "final_price": 25900,
+        "final_line_price": 155400,
+        "url": "/products/shorts-gaze-amarelo-insecta-projeto-fio?variant=39519618859094",
+        "featured_image": {
+          "aspect_ratio": 0.8,
+          "alt": "SHORTS GAZE AMARELO INSECTA + PROJETO FIO",
+          "height": 1875,
+          "url": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/InsectaLookbookProjetoFio-20480-EDIT2.jpg?v=1630070813",
+          "width": 1500
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0249/0220/5526/products/InsectaLookbookProjetoFio-20480-EDIT2.jpg?v=1630070813",
+        "handle": "shorts-gaze-amarelo-insecta-projeto-fio",
+        "requires_shipping": true,
+        "product_type": "ROUPAS",
+        "product_title": "SHORTS GAZE AMARELO INSECTA + PROJETO FIO",
+        "product_description": "Através da união da sustentabilidade, do trabalho social e da força de marcas fundadas por mulheres que essa collab surge. É com prazer que anunciamos nossa collab com o Projeto Fio. \r\n\r\n\r\n\r\nO Projeto Fio reinsere mulheres marginalizadas e invisibilizadas pela sociedade no mercado de trabalho pela capacitação e geração de emprego através dos bordados. Além delas, para inspirar essa coleção, contamos com a mata entre nós: a riqueza e biodiversidade da Mata Atlântica da divisa RIO-SP. As flores do Projeto Fio agora estão acompanhadas dos besouros da Insecta.\r\n\r\n\r\n\r\nO shorts possui modelagem ampla e um pouco mais comprida. Tem cintura alta e conta com elástico, para proporcionar mais conforto e liberdade para quem veste. Os bordados contrastam com o nosso tecido de algodão reciclado e montam uma linda combinação. Junto à camisa formam um lindo conjunto que todo mundo vai querer ter! \r\n\r\n    \r\n    \r\n    Tamanho    \r\n    Cintura    \r\n    Quadril\r\n    Perna (largura)\r\n    Altura\r\n    \r\n    \r\n    P\r\n    78cm\r\n    98cm\r\n    64cm\r\n    37,5cm\r\n    \r\n    \r\n    M\r\n    82cm\r\n    104cm\r\n    68cm\r\n    39cm\r\n    \r\n    \r\n    G\r\n    86cm\r\n    110cm\r\n    74cm\r\n    41,5cm\r\n    \r\n    \r\n    GG\r\n    90cm\r\n    116cm\r\n    78cm\r\n    44cm\r\n    \r\n    \r\n    ",
+        "variant_title": "AMARELO CLARO / M / GAZE AMARELO",
+        "variant_options": [
+          "AMARELO CLARO",
+          "M",
+          "GAZE AMARELO"
+        ],
+        "options_with_values": [
+          {
+            "name": "Cor",
+            "value": "AMARELO CLARO"
+          },
+          {
+            "name": "Tamanho",
+            "value": "M"
+          },
+          {
+            "name": "Estampa",
+            "value": "GAZE AMARELO"
+          }
+        ],
+        "line_level_discount_allocations": [
+          
+        ],
+        "line_level_total_discount": 0
+      }
+    ]
+  }
