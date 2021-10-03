@@ -13,3 +13,4 @@ const calcTotal = [ (Cart.items[0].quantity * Cart.items[0].price) + (Cart.items
 console.log('Sua compra total foi: ', calcTotal)
 
 // // 2. somar o valor total do cart
+
