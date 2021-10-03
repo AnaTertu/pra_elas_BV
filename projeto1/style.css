@@ -1,11 +1,84 @@
+* {
+  margin: 0 auto; /*top right botton left*/ /* (top, botton)(right, left) */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* tags */
 body {
-  margin: 0 auto; /*top right botton left*/ /* (top, botton)(right, left) */
   color: lightslategrey;
   text-align: center;
-  background-color: white;
+  background-color: rgb(230, 211, 227);
   max-width: 1100px;
 }
+
+.navigation {
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+}
+
+.navigation nav span {
+  color: indigo;
+  text-decoration: underline;
+  transition: 300ms;
+}
+
+/* Hover altera o estilo quando o mouse passa por cima */
+.navigation nav a:hover {
+  color: indigo;
+  text-decoration: underline;
+  background-color: rgb(16, 14, 19);
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+/* Evite usar, somente para casos extremos para alterar o inline style */
+.importante > div {
+  display: block !important;
+}
+
+/* .class */
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.container #first {
+  border: 2px solid rgb(78, 62, 67);
+  margin: 30px;
+}
+
+/* Com > somente o son1 é alerado o grandson1 não.*/
+#first > p {
+  color: rgb(44, 39, 39);
+}
+
+.container #second {
+  border: 4px solid rgb(70, 45, 54);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* sem > os son1 e grandson1 seriam alterados. */
+#second p {
+  color: rgb(44, 39, 39);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.list li {
+  list-style: none; /*remove as bolinhas */
+  padding: 10px;
+}
+
 ul {
   border: 1px solid white;
 }
@@ -22,33 +95,12 @@ ul {
   color: rgb(44, 39, 39);
 }
 
-/* .class */
-.container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
 p {
   text-align: justify;
   padding: 0 10px;
 }
 
 .copy {
-  font-size: 8px;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: blueviolet;
-}
-
-li {
-  padding: 10px;
+  font-size: 8px !important;
+  margin-bottom: 15px !important;
 }
