@@ -13,13 +13,13 @@ body {
   background-color: rgb(243, 237, 242); /*iserir cor de fundo*/
 }
 
-.fundo,
+.pai,
 .copy {
   background-image: linear-gradient(
     to bottom,
-    #37053796,
-    #5c2d6283,
-    #82559069,
+    #370537cb,
+    #5c2d628a,
+    #82559070,
     #ab7fc254,
     #d1abf63f
   );
@@ -35,23 +35,46 @@ h5 {
   font-size: 25px;
 }
 
+.pai .navigation #nav li {
+  text-align: end;
+  margin-left: 90%;
+}
+
 ul {
   list-style: none; /*sem estilo nas ul's*/
 }
 
-a {
-  text-decoration: none;
+.pai a:hover {
+  color: rgb(16, 14, 19);
+  text-decoration: underline;
+  background-color: rgba(76, 0, 130, 0.226);
 }
 
-.fundo .container {
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.pai .container {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
 }
 
+.pai .navigation #logo {
+  /* margin-bottom: -100px; */
+  text-align: end;
+  margin-left: 90%;
+}
+
 .form input {
   width: 60%;
 }
+
+/**/
+
+/**/
+
 /**/
 
 /**/

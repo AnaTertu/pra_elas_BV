@@ -6,10 +6,20 @@
   border: 1px solid #000;
   margin: 10px;
   flex-basis: 100%;
+  font-size: 20px;
+  background-color: #f6abf080;
 }
 
 .flex img {
   padding: 8px;
-  max-width: 500px;
-  min-width: 450px;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.flex p {
+  max-width: 600px;
+  margin: 15px;
+}
+
+form {
 }
