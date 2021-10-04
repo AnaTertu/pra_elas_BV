@@ -12,7 +12,7 @@ body {
 }
 
 .navigation {
-  display: inline-block;
+  align-items: baseline;
   list-style: none;
   cursor: pointer;
 }

@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; /*permite que a soma do tamnho dos elementos fiquem limitados a ele próprio sem acrescer ao tamnho da margin e do padding*/
+  box-sizing: border-box; /*soma do tamnho dos elementos a ele próprio, sem acrescer ao tamnho da margin e do padding*/
   color: rgb(27, 1, 21);
   font-family: "Reggae One", cursive;
   font-size: 20px;
@@ -9,22 +9,8 @@
 /* escala de cores rgb(49, 1, 37), rgb(129, 56, 111), rgb(168, 125, 157), rgb(243, 237, 242)*/
 
 body {
-  /* background-image: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg);
-  background-repeat: no-repeat;
-  background-position: center center fixed; */
-  /* background: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg) no-repeat center fixed;*/ /*iserir imagem*/
   background-size: cover;
-  /* background-color: rgb(243, 237, 242); */ /*iserir cor de fundo*/
-  /* background-color: linear-gradient(90deg, #c0392b, #8e44ad); */ /*inserir degradê*/
-  /* background-image: linear-gradient(
-    to bottom,
-    #37053796,
-    #5c2d6283,
-    #82559060,
-    #ab7fc269,
-    #d1abf662
-  ); */
-  /* height: 100vh; */ /*use junto com linear quanto definir direção sem uso do grau, para cobrir a tela 100%*/
+  background-color: rgb(243, 237, 242); /*iserir cor de fundo*/
 }
 
 .fundo,
@@ -59,4 +45,34 @@ a {
 
 .fundo .container {
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
+.form input {
+  width: 60%;
+}
+/**/
+
+/**/
+
+/* escala de cores do projeto rgb(49, 1, 37), rgb(129, 56, 111), rgb(168, 125, 157), rgb(243, 237, 242)*/
+
+/*forma fracionada do background*/
+/* background-image: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed; */
+
+/*forma compacta do background*/
+/* background: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg) no-repeat center fixed;*/ /*iserir imagem não repete centraliza e fixa ao mesmo tempo*/
+
+/* background-color: linear-gradient(90deg, #c0392b, #8e44ad); */ /*inserir degradê*/
+/* background-image: linear-gradient(
+      to bottom,
+      #37053796,
+      #5c2d6283,
+      #82559060,
+      #ab7fc269,
+      #d1abf662
+    ); */
+/* height: 100vh; */ /*use junto com linear quanto definir direção sem uso do grau, para cobrir a tela 100%*/
