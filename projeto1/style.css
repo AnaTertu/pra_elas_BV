@@ -1,106 +1,62 @@
 * {
-  margin: 0 auto; /*top right botton left*/ /* (top, botton)(right, left) */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /*permite que a soma do tamnho dos elementos fiquem limitados a ele próprio sem acrescer ao tamnho da margin e do padding*/
+  color: rgb(27, 1, 21);
+  font-family: "Reggae One", cursive;
+  font-size: 20px;
 }
+/* escala de cores rgb(49, 1, 37), rgb(129, 56, 111), rgb(168, 125, 157), rgb(243, 237, 242)*/
 
-/* tags */
 body {
-  color: lightslategrey;
-  text-align: center;
-  background-color: rgb(230, 211, 227);
-  max-width: 1100px;
+  /* background-image: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg);
+  background-repeat: no-repeat;
+  background-position: center center fixed; */
+  /* background: url(./src/assets/imag/pexels-adrien-olichon-2387793.jpg) no-repeat center fixed;*/ /*iserir imagem*/
+  background-size: cover;
+  /* background-color: rgb(243, 237, 242); */ /*iserir cor de fundo*/
+  /* background-color: linear-gradient(90deg, #c0392b, #8e44ad); */ /*inserir degradê*/
+  /* background-image: linear-gradient(
+    to bottom,
+    #37053796,
+    #5c2d6283,
+    #82559060,
+    #ab7fc269,
+    #d1abf662
+  ); */
+  /* height: 100vh; */ /*use junto com linear quanto definir direção sem uso do grau, para cobrir a tela 100%*/
 }
 
-.navigation {
-  display: inline-block;
-  list-style: none;
-  cursor: pointer;
+.fundo,
+.copy {
+  background-image: linear-gradient(
+    to bottom,
+    #37053796,
+    #5c2d6283,
+    #82559069,
+    #ab7fc254,
+    #d1abf63f
+  );
+  height: 100%;
 }
 
-.navigation nav span {
-  color: indigo;
-  text-decoration: underline;
-  transition: 300ms;
+h1 {
+  color: rgb(153, 8, 117);
+  font-size: 35px;
 }
 
-/* Hover altera o estilo quando o mouse passa por cima */
-.navigation nav a:hover {
-  color: indigo;
-  text-decoration: underline;
-  background-color: rgb(16, 14, 19);
+h5 {
+  font-size: 25px;
+}
+
+ul {
+  list-style: none; /*sem estilo nas ul's*/
 }
 
 a {
   text-decoration: none;
-  color: blueviolet;
 }
 
-/* Evite usar, somente para casos extremos para alterar o inline style */
-.importante > div {
-  display: block !important;
-}
-
-/* .class */
-.container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-.container #first {
-  border: 2px solid rgb(78, 62, 67);
-  margin: 30px;
-}
-
-/* Com > somente o son1 é alerado o grandson1 não.*/
-#first > p {
-  color: rgb(44, 39, 39);
-}
-
-.container #second {
-  border: 4px solid rgb(70, 45, 54);
-  padding: 15px;
-  margin-bottom: 10px;
-}
-
-/* sem > os son1 e grandson1 seriam alterados. */
-#second p {
-  color: rgb(44, 39, 39);
-}
-
-.list {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-.list li {
-  list-style: none; /*remove as bolinhas */
-  padding: 10px;
-}
-
-ul {
-  border: 1px solid white;
-}
-
-/* .class  #id */
-.but #login {
-  background-color: gray;
-  color: antiquewhite;
-}
-
-/* #id */
-#register {
-  background-color: gainsboro;
-  color: rgb(44, 39, 39);
-}
-
-p {
-  text-align: justify;
-  padding: 0 10px;
-}
-
-.copy {
-  font-size: 8px !important;
-  margin-bottom: 15px !important;
+.fundo .container {
+  text-align: center;
 }
