@@ -7,7 +7,11 @@
 ### * HTML | CSS | JavaScript | Java | Banco de Dados
 
 👋
-### Olá sou✨ Ana Tertuliano ✨ 
+### Olá sou✨ Ana Tertuliano ✨
+<a href="https://anatertu.github.io/" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/66326789?v=4" alt="AnaTertu" height="100" width="100" style="max-width:100%;" ><img/>
+<a/>
+  
 - Moro em Porto Alegre / RS 🇧🇷 :brazil:
 - :woman_student: Sou estudante ✍🏼
 - -- 🎓  Faculdade em **Ciência da Computação**
@@ -33,4 +37,5 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AnaTertu&langs_count=8)](https://github.com/AnaTertu/github-readme-stats)
 ![AnaTertu's GitHub stats](https://github-readme-stats.vercel.app/api?username=AnaTertu&hide=contribs,issues)
+
 
