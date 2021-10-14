@@ -1,5 +1,309 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,100;1,700;1,900&display=swap");
 
 * {
+  padding: 0;
+  margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*  INSERIR  MOBILE E HEADER*/
+#mobile-main {
+  display: none;
+}
+
+.header-position {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.content-flex {
+  display: flex;
+  align-items: center; /*vertical*/
+  justify-content: center; /*horizontal*/
+  height: 100%;
+}
+
+.content-flex img {
+  width: 150px;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background: rgb(172, 165, 175);
+}
+
+/*INSERIR*/
+.navbar-content img {
+  height: 70px;
+  width: auto;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header-position {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.button-content a {
+  text-decoration: none;
+  background: rgb(145, 62, 145);
+  padding: 12px;
+  color: #fff;
+  border-radius: 18px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.button-content a:hover {
+  background: rgb(29, 139, 51);
+}
+
+.section {
+  height: 100vh;
+}
+
+.bg-black {
+  background-color: #89adb4;
+  color: #fff;
+  transition: 1s;
+}
+
+.bg-black1 {
+  background-color: #313e41;
+  color: #fff;
+  transition: 1s;
+}
+
+.bg-image {
+  background-image: url("../assets/img/pexels-adrien-olichon-2387793.jpg");
+  /*background-repeat: no-repeat; /*imagens menores - não se repetirem*/
+  background-size: cover; /*abrange todo container*/
+  background-attachment: fixed; /*fixa o conteúdo, demais elementos movem-se por sobre ele.*/
+}
+
+/*INSERIR*/
+.top-button {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  background: rgb(104, 27, 104);
+  color: #fff;
+  padding: 12px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-button > a {
+  text-decoration: none;
+  /* position: fixed; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+/*INSERIR*/
+.tertu-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+/*VERIFICAR*/
+.footer {
+  background-color: #acacac;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* INSERIR todos abaixo*/
+
+/*
+Tela de 19 polegadas (proporção padrão): 1280 x 1024 pixels
+
+Tela de 20 polegadas (proporção padrão): 1600 x 1200 pixels
+
+Tela de 22 polegadas (widescreen): 1680 x 1050 pixels
+
+Tela de 24 polegadas (widescreen): 1900 x 1200 pixels
+
+■ 360×640 pxs – foi usado por 11.28% dos usuários mundiais (dados site StatCounter).
+
+■ 1280 x 800 pxs – um dos formatos que mais ganhou usuários no último ano. Em janeiro de 2017, foi usado por 5.14% dos usuários mundiais (dados site Market Share).
+
+■ 1366×768 – em março de 2020 foi usado por 8.66% dos usuários mundiais (dados site Market Share).
+
+■ 1920 x 1080 pxs – em março de 2020 foi usada por 7.95% dos usuários mundiais.
+
+■ 375×667 – em março de 2020 foi usada por 4.36% dos usuários mundiais.
+
+■ 414×896 – em março de 2020 foi usada por 4.01% dos usuários mundiais.
+
+■ 360×780 – em março de 2020 foi usada por 3.19% dos usuários mundiais.
+*/
+
+/* celular */
+@media screen and (max-width: 767px) {
+  .bg-black {
+    background-color: pink;
+    color: red;
+  }
+  .content-flex {
+    flex-direction: column-reverse;
+  }
+  #desktop-main {
+    display: none;
+  }
+  #mobile-main {
+    display: grid;
+    margin-top: -100px;
+  }
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    z-index: 1;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  #menuToggle a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+  #menuToggle a:hover {
+    color: black;
+  }
+
+  #menuTogle input {
+    display: block;
+    width: 45px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+    -webkit-touch-callout: none; /*regra que se aplica no Safari*/
+  }
+  #menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: purple;
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #mobileMainContent {
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    margin: -100px 0 0 -50px;
+    padding: 25px;
+    padding-top: 100px;
+    background: #2e948a;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased; /*Safari*/
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: 0.5s;
+  }
+
+  #mobileMainContent li {
+    padding: 2px 0;
+  }
+
+  #menuToggle input:checked ~ ul {
+    transform: none;
+  }
+
+  .some-bode {
+    mix-blend-mode: multiply;
+  }
+}
+/* celular peq*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bg-black {
+    background-color: green;
+    color: yellow;
+  }
+}
+
+/**/
+/**/
+/**/
+/* não devo usar id para espicificações do elemento
+#content1 {
+  height: 100vh;    vh - view hight tamnho do navegador/tela
+  background-color: aqua;
+}
+
+#content2 {
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+Devo tratar com class
+*/
+
+/* não posso reaproveitar o código quendo declaro a tag diretamente, ideal usar as class.
+    header {     uso    .container {
+*/

@@ -1,32 +1,102 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,100;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Minha BV</title>
-</head>
-<body>
-    <header class="header-position">
-        <nav class="navbar-content">
-            <a href="#content1">
-                <img src="assets/img/bancoBV.png" alt="logo banco BV">
-            </a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div>
+<!DOCTYPE html> <!-- html 5 -->
+<html lang="pt-br"> <!-- contem parametros -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;1,100;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Minha BV</title>
+    </head>
+    <body>
+        <header class="container header-position">
+            <nav class="navbar-content">
+                    <a href="https://www.bv.com.br/bv-inspira/parceiro-solar/mulheres-no-setor-de-renovaveis" target="_blanc" title="Logo Banco BV"> <!--_self - abre na página em que estou-->
+                        <img src="assets/img/bancoBV.png" alt="logo banco BV" width="68.77" height="50">
+                    </a>
+                    <nav class="button-content" id="desktop-main">
+                        <a href="#goToSectionA">Section A</a>
+                        <a href="#goToSectionB">Section B</a>
+                        <a href="#goToSectionC">Section C</a>
+                        <a href="#goToSectionD">Section D</a>
+                        <a href="#goToSectionE">Section E</a>
+                    </nav>
+                    <nav id="mobile-main">
+                        <div id="menuToggle">
+                            <imput type="checkbox"/>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="mobileMainContent">
+                                <img src="./assets/img/ArtVic.jpg" width="auto" height="500px" class="some-bode" alt="foto Arthur e Victor" />
+                                <a href="#goToSectionA"><li> Section A </li></a>
+                                <a href="#goToSectionB"><li> Section B </li></a>
+                                <a href="#goToSectionC"><li> Section C </li></a>
+                                <a href="#goToSectionD"><li> Section D </li></a>
+                                <a href="#goToSectionE"><li> Section E </li></a>
+                            </ul>
+                        </div>
+                    </nav>
+                </nav>
+        </header>
 
-            </div>
-        </section>
-    </main>
-    <footer>
+        <main>
+            <section class="section bg-black" id="goToSectionA"> <!--vantagens - class - posso passar várias na mesma.-->
+                <div class="content-flex">
+                    <div> <!--por padrão as div vem display block - um embaixo do outro-->
+                        <h1>I'm here, BV!</h1>
+                        <h2>I'm here, BV!</h2>
+                        <h3>I'm here, BV!</h3>
+                        <h4>I'm here, BV!</h4>
+                        <h5>I'm here, BV!</h5>
+                        <h6>I'm here, BV!</h6>
+                    </div>
+                    <img src="./assets/img/logo.png"/>
+                </div>
+            </section>
+            <section class="section bg-image" id="goToSectionB">
+                <div>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>          
+            </section>
+            <section class="section bg-black1" id="goToSectionC"> <!--vantagens - class - posso passar várias na mesma.-->
+                <div class="content-flex">
+                    <h1>I'm here, BV!</h1>
+                    <h2>I'm here, BV!</h2>
+                    <h3>I'm here, BV!</h3>
+                    <h4>I'm here, BV!</h4>
+                    <h5>I'm here, BV!</h5>
+                    <h6>I'm here, BV!</h6>
+                    <img src="./assets/img/logo.png"/>
+                </div>
+            </section>
+            <section>
+                <div id="goToSectionD" class="section bg-image tertu-section">
+                    <img src="assets/img/ArtVic.jpg" height="200px" width="auto" alt="foto Arthur e Victor"/>
+                </div>
+                <div>    
+                    <div class="top-button">
+                        <a href="goToSectionA">Volte ao topo</a>
+                    </div>
+                </div>
+            </section>        
+        </main>
+
+        <div id="goToSectionE" class="section bg-black content-flex">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Lai9P2tAl8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         
-    </footer>
-</body>
+
+        <footer class="text-center footer">
+            <p>Todos direitos reservados &copy;</p>
+        </footer>
+    </body>
 </html>
+
+<!-- <a href="arquivoIr.html">Home</a>  para navegar entre os arquivos do projeto // navegar entre telas -->
